@@ -28,8 +28,10 @@ main{
 /* Ruan */
 .tarjeta{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 5px;
 
     width: fit-content;
     height: 5vh;
