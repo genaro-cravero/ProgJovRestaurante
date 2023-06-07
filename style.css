@@ -43,13 +43,17 @@ main{
 footer{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:space-evenly;
 
     width: 100%;
-    height: 5vh;
+    height: 20vh;
 
-    margin-top: auto;
+
+
+    position:absolute;
     flex-direction:row;
+    bottom: 0%;
+    
 
     background-color: rgba(107, 48, 5, 0.782)
 }
