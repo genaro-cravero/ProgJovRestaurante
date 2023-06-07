@@ -33,12 +33,18 @@ main{
     justify-content: center;
     margin: 5px;
 
-    width: fit-content;
-    height: 5vh;
+    width: 30vw;
+    height: 30vh;
 
-    background-color: rgba(107, 48, 5, 0.782)
+    background-color: rgba(89, 81, 76, 0.782);
+    border: 5px solid rgb(107, 48, 5);
+    border-radius: 10px;
 }
-
+.contenedortarjetas{
+    display:flex;
+    flex-wrap: wrap;
+    flex-basis: 22%;
+}
 /* Mario */
 footer{
     display: flex;
