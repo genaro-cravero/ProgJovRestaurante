@@ -7,6 +7,8 @@
 body{
     background-color: rgb(49, 46, 44);
     background-image: url(./images/fondo.jpg);
+    min-height: 100vh;
+    background-size: cover;
 }
 
 /* Bernat */
@@ -18,19 +20,75 @@ header{
 
     background-color: rgba(107, 48, 5, 0.782);
     justify-content: space-around;
+    gap: 50vw;
     align-items: center;
+    position: absolute;
+
 }
+
 header img{
 
-height: 5vh;
-border-radius: 10px;
-
+    height: 5vh;
+    border-radius: 10px;
 
 }
+
+header a{
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+header nav{
+    display: flex;
+    gap: 3vw;
+}
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1vw;
+}
+/* ----- */
 main{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.beefSection{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 2vh;
+}
+
+.beefSection img{
+    z-index: -1;
+    width: 100%;
+}
+.beefSection div{
+    position: absolute;
+    top: 12vh;
+}
+.beefSection div h1{
+    font-size: 5rem;
+    font-weight: 900;
+    text-shadow: -2px 2px 4px rgb(209, 98, 8);
+}
+.beefSection button{
+    margin-top: 3vh;
+    width: 10vw;
+    height: 5vh;
+    border-radius: 10px;
+    background-color: rgb(209, 98, 8);
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+main h2{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 2vh;
 }
 /* Ruan */
 .tarjeta{
@@ -40,18 +98,32 @@ main{
     justify-content: center;
     margin: 5px;
 
-    width: 30vw;
+    width: 10vw;
     height: 30vh;
 
     background-color: rgba(89, 81, 76, 0.782);
     border: 5px solid rgb(107, 48, 5);
     border-radius: 10px;
+    flex-basis: 40%;
+}
+.tarjeta img{
+    height: 70%;
+    border-radius: 10px;
+}
+.tarjeta h3{
+    font-size: 2rem;
+    text-shadow: -1px 2px 3px rgb(0, 0, 0);
+    font-weight: 900;
+    margin-top: 1vh;
 }
 .contenedortarjetas{
     display:flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
-    flex-basis: 22%;
+    gap: 1vw;
 }
+
 /* Mario */
 footer{
     display: flex;
@@ -62,11 +134,12 @@ footer{
     height: 20vh;
 
 
-
     position:absolute;
     flex-direction:row;
-    bottom: 0%;
     
+    margin-top: 2vh;    
 
-    background-color: rgba(107, 48, 5, 0.782)
+    background-color: rgba(107, 48, 5, 0.782);
+
+    font-size: 1.5rem;
 }
