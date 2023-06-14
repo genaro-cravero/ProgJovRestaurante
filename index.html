@@ -31,7 +31,7 @@
             <img src="./images/beef.jpg" alt="">
             <div class="beefSection">
                 <h1>LLEGASTE AL MENÚ INDICADO</h1>
-                <button>ORDENA YA</button>
+                <button><i class="bi bi-clipboard2-heart"></i> ORDENA YA</button>
                 
             </div>
 
@@ -49,6 +49,8 @@
                 <img src="./images/food/CarneSimple.jpg" alt="">
                 <h3> 6,50$</h3>
                 <p> Platillo de carne con arroz y tomate </p>
+                <button onclick="RestarComida()">-</button>
+                <button onclick="SumarComida()">+</button>
             </div>
 
             <div class="tarjeta">
@@ -96,6 +98,12 @@
                 <p>hamburguesa de pollo caramelisada con patatas, cebolla y tomate</p>
             </div>
         </div>
+
+        <div class="cart">
+            <i class="bi bi-cart"></i>
+            <p><b id="carroNumero"></b></p>
+        </div>
+
     </main>
 
 
