@@ -37,7 +37,34 @@ let satisfaccion;
 // ];
 
 
+// const usuarios = [
+//     {
+//         nombre: "NICO",
+//         contrasena: "NICOCRAVERO"
+//     },
+//     {
+//         nombre: "Ruan",
+//         contrasena:"MoniRuan"
+//     },
+//     {
+//         nombre: "Bernat",
+//         contrasena: "BernatEsteva"
+//     },
+//     {
+//         nombre: "Mario",
+//         contrasena: "Mario124"
+//     }
+// ];
 
+// usuarios.forEach(usuario => {
+
+//     alert(usuario.nombre);
+//     if(usuario.contrasena.length < 10)
+//     {
+//         alert("Contraseña debil");
+//     }    
+
+// })
 
 
 carrito.innerHTML = 0;
