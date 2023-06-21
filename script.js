@@ -19,6 +19,7 @@ let satisfaccion;
 // }
 
 
+
 //// Array de objetos
 // const arr1 = [
 //     {
@@ -34,7 +35,6 @@ let satisfaccion;
 //         descripcion: "Estofado de carne con salsa de tomate natural"
 //     }
 // ];
-
 
 
 
