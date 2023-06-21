@@ -4,6 +4,41 @@ const form = document.querySelector("#consultas");
 let consulta;
 let satisfaccion;
 
+////objetos
+// const plato1 = {
+//     nombre: "Platillo de carne",
+//     img: "./images/food/CarneSimple.jpg",
+//     precio: 6.50,
+//     descripcion: "Platillo de carne con arroz y tomate"
+// }
+// const plato2 = {
+//     nombre: "Platillo de carne2",
+//     img: "./images/food/CarneSimple.jpg",
+//     precio: 6.50,
+//     descripcion: "Platillo 2 de carne con arroz2 y tomate2"
+// }
+
+
+//// Array de objetos
+// const arr1 = [
+//     {
+//         nombre: "Platillo de carne",
+//         img: "./images/food/CarneSimple.jpg",
+//         precio: 6.50,
+//         descripcion: "Platillo de carne con arroz y tomate"
+//     },
+//     {
+//         nombre: "Estofado de carne",
+//         img: "./images/food/Estofado.jpg",
+//         precio: 7.30,
+//         descripcion: "Estofado de carne con salsa de tomate natural"
+//     }
+// ];
+
+
+
+
+
 
 carrito.innerHTML = 0;
 
